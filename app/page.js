@@ -1,13 +1,14 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main >
       <div >
        
-      <h1>hello</h1>
-      <h2>hello i did not do homework again</h2>
-      <h3>reminding not doing homework again fuck</h3>
+     <Hero heading='Capture Photography' message='I capture moments in nature and keep them alive .' />
+    
       </div>
     </main>
   );
