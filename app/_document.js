@@ -4,7 +4,7 @@ export default function Document () {
     return (
         <Html>
             <Head>
-                <Link reel="stylesheet" href="..." />
+              
              
             </Head>
             <body>
