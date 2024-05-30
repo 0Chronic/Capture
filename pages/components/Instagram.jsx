@@ -3,25 +3,30 @@ import React from 'react'
 
 
 import Image from 'next/image'
+import { FaInstagram } from 'react-icons/fa'
+
+
+
 
 
 
 import InstagramImg from './Instagramimg'
 
+
 const Instagram = () => {
   return (
-    <div>
-        <p>Follow me on Instagram</p>
-        <p>@Captur</p>
-        <div className='relative'>
 
-        <Image src="/ig-img-1.jpeg" alt="Instagram Image 1" width={500} height={500} className='w-full h-full' layout='reponsive' />
-      <Image src="/ig-img-2.jpeg" alt="Instagram Image 2" width={500} height={500} />
-      <Image src="/ig-img-3.jpeg" alt="Instagram Image 3" width={500} height={500} />
-      <Image src="/ig-img-4.jpeg" alt="Instagram Image 4" width={500} height={500} />
-          <InstagramImg />
-        </div>
+      <div className='max-w-[1240px] mx-auto text-center py-24'>
+
+
+        <p className='text-2xl font-bold'>Follow me on Instagram</p>
+        <p className='pb-4'>@Captur</p>
+
+<InstagramImg />
+
     </div>
+
+  
   )
 }
 
